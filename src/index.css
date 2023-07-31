@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Display&display=swap');
+
+/* 
+font-family: 'DM Sans', sans-serif;
+font-family: 'DM Serif Display', serif;
+*/
+
+
+:root {
+    --text: #f5e236;
+    --background: #2e2e2e;
+    --primary: #e1e1e1;
+    --secondary: #e2e9e2;
+    --accent: #eb1e1e;
+
+    --ff-p: 'DM Sans', sans-serif;
+    --ff-h: 'DM Serif Display', serif;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+body {
+    font-family: var(--ff-p);
+
+    color: black;
+    background-color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--ff-h);
+}
+
+nav {
+    color: white;
+}
+
+.main {
+    background-image: url('assets/background-main1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
